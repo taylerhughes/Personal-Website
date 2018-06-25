@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+    font-family: 'Feijoa Display';
+    src: url('./fonts/Feijoa-Display.woff2') format('woff2'),
+        url('./fonts/Feijoa-Display.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #f7f7f7;
+  padding:40px;
+}

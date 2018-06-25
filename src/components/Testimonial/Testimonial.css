@@ -1,0 +1,37 @@
+.testimonial {
+	width:50%;
+	margin:150px auto;
+}
+
+.testimonial > h3 {
+	font-family: 'Feijoa Display'; 
+	font-weight: normal; 
+	font-style: normal;
+	color:#7c7c7c;
+	font-size:34px;
+	text-align: center;
+	margin:0 0 20px 0;
+}
+
+.testimonial > h3 span {
+	margin:20px 0;
+	display: inline-block;
+}
+
+.testimonial-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #444444;
+    text-align: center;
+}
+
+.testimonial-job {
+font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7c7c7c;
+    text-align: center;
+}
+
+.clearer { clear: both; }
