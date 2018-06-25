@@ -1,0 +1,6 @@
+Link sidekick and yuuworld to live
+display skills and technologies somewhere somehow
+display email and phone
+add blog functionality
+add link to cv
+add social media links? github and linkedin?
