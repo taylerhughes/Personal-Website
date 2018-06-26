@@ -1,4 +1,3 @@
-Link sidekick and yuuworld to live
 display skills and technologies somewhere somehow
 display email and phone
 add blog functionality

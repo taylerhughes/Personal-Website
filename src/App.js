@@ -5,7 +5,8 @@ import Hero from './components/Hero/Hero.js';
 import Testimonial from './components/Testimonial/Testimonial.js';
 import Footer from './components/Footer/Footer.js';
 import Clients from './components/Clients/Clients.js';
-import './foundation.css';
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+import { Grid } from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -28,14 +29,14 @@ class App extends Component {
       string = string.replace("%20", " ");
     }
     return (
-      <div className="App grid-container">
+      <Grid className="App">
         <Header>
           <Hero name={string} />
         </Header>
         <Clients />
         <Testimonial />
         <Footer />
-      </div>
+      </Grid>
     );
   }
 }
